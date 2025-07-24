@@ -1,7 +1,7 @@
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('https://github.com/akshay003-bot/Akshay_Nasanakota_Portfolio/blob/master/src/assets/images/banner-bg.png');
+  background-image: url("./banner-bg.png");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
