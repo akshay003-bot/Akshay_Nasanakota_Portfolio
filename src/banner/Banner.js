@@ -4,6 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/images/header-img.png";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
+import backgroundImage from './banner-bg.png';
 import TrackVisibility from 'react-on-screen';
 import { HashLink } from "react-router-hash-link";
 
@@ -50,7 +51,7 @@ const Banner = () => {
   }
 
   return (
-    <section className="banner" id="home" style={{backgroundImage: url("https://github.com/akshay003-bot/Akshay_Nasanakota_Portfolio/blob/master/src/assets/images/banner-bg.png")}}>
+    <section className="banner" id="home" style={{backgroundImage: `url(${backgroundImage})}}`>
       <Container>
         <Row className="aligh-items-center">
           <Col xs={12} md={6} xl={7}>
