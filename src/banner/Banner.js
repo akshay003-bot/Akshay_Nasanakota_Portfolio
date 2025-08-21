@@ -50,7 +50,7 @@ const Banner = () => {
   }
 
   return (
-    <section className="banner" id="home">
+    <section className="banner" id="home" style={{backgroundImage: url("https://github.com/akshay003-bot/Akshay_Nasanakota_Portfolio/blob/master/src/assets/images/banner-bg.png")}}>
       <Container>
         <Row className="aligh-items-center">
           <Col xs={12} md={6} xl={7}>
